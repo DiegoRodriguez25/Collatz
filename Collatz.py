@@ -5,14 +5,14 @@ digito = int(input("\n\nIngrese el último dígito de su código: "))
 a = digito + 3
 
 for i in range(1,a+1):
-    listap = int(input("Ingrese un numero"))
+    listap = int(input(f"Ingrese el {i} numero: "))
     lista.append(listap)
     
 nump = sum(lista)/a
 
 numero = int(nump)
 
-print("El número promeido es:",numero)
+print("\n\tEl número promeido es:",numero)
 
 while numero != 1:
      
